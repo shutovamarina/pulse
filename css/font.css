@@ -2,7 +2,7 @@
     font-family: 'Museo Sans 300 Light';
     src: url('MuseoSansCyrl-300.eot');
     src: url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-300.woff') format('woff'), url('MuseoSansCyrl-300.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 }
 
@@ -10,7 +10,7 @@
     font-family: 'Museo Sans 500 Medium';
     src: url('MuseoSansCyrl-500.eot');
     src: url('MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-500.woff') format('woff'), url('MuseoSansCyrl-500.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 }
 
@@ -18,6 +18,6 @@
     font-family: 'Museo Sans 700 Bold';
     src: url('MuseoSansCyrl-700.eot');
     src: url('MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-700.woff') format('woff'), url('MuseoSansCyrl-700.ttf') format('truetype');
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
 }
