@@ -1,26 +1,27 @@
-@media (max-width: 991px) {
-    .consultation {
-        .title {
-            font-size: 33px;
-        }
+@media screen and (max-width: 600px) {
+    div.example {
+        display: none;
     }
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 600px) and (min-width: 400px) {}
+
+@media (max-width: 821px) {
     .header {
         &__phone {
             font-size: inherit;
+            margin-right: 10px;
         }
-        &__logo {
-            width: 25%;
-            img {
-                width: 125%;
-            }
+    }
+    &__logo {
+        width: 25%;
+        img {
+            width: 90%;
         }
-        &__official {
-            span {
-                font-size: 17px;
-            }
+    }
+    &__official {
+        span {
+            font-size: 17px;
         }
     }
     .promo {
@@ -58,6 +59,8 @@
     }
 }
 
+
+/* 
 @media (max-width: 575px) {
     .promo {
         &__header {
@@ -81,7 +84,9 @@
             flex-direction: column;
             &__logo {
                 /*         width: 80%; */
-                width: 60%;
+
+
+/*               width: 60%;
                 margin: 0 auto;
                 img {
                     width: 100%;
@@ -120,4 +125,4 @@
             width: 100%;
         }
     }
-}
+} */
