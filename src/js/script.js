@@ -91,8 +91,8 @@ $(document).ready(function() {
             data: $(this).resalize()
         }).done(function() {
             $(this).find("input").val("");
-
-
+            $('#consultation, #order').fadeOut();
+            $('.overlay, #thanks').fadeIn();
             $('form').trigger('reset');
         });
         return false;
