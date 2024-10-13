@@ -140,11 +140,10 @@
             line-height: 45px;
         }
         .feed__img {
-            height: 145px;
+            height: 85px;
         }
         .footer__info {
-            left: 35%;
-            transform: none;
+            display: none;
         }
         .footer address {
             font-size: 16px;
@@ -174,10 +173,10 @@
                 margin-top: 70px;
             }
             &__header {
-                font-size: 30px;
+                font-size: 24px;
             }
             &__subheader {
-                font-size: 18px;
+                font-size: 12px;
             }
             &__icons {
                 width: 300px;
